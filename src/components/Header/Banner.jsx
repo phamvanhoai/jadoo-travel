@@ -4,34 +4,35 @@ import React from 'react'
 const Banner = () => {
     return (
         <>
-            {/* Hero Content */}
-            <div className="hero-content">
-                <div className="text">
-                    <p className="tagline">BEST DESTINATIONS AROUND THE WORLD</p>
+            {/* <!-- Hero Section --> */}
+            <section class="hero">
+                {/* <!-- Text --> */}
+                <div class="hero-text">
+                    <p class="label">Best destinations around the world</p>
                     <h1>
-                        Travel, enjoy <br />
-                        and live a new <br />
-                        <span className="highlight">
-                            and full life
-                            <img src="/assets/decore.png" alt="underline" className="underline" />
-                        </span>
-                    </h1>
-                    <p className="desc">
-                        Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
-                    </p>
-                    <div className="cta">
-                        <button className="btn-primary">Find out more</button>
-                        <button className="btn-play">▶</button>
-                        <span>Play Demo</span>
-                    </div>
-                </div>
+                        Travel, <span>enjoy <img src="/assets/Decore.png" alt="underline" /></span><br />
+                            and live a new <br /> and full life
+                            </h1>
+                            <p class="desc">
+                                Built Wicket longer admire do barton vanity itself do in it.
+                                Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+                            </p>
+                            <div class="cta-buttons">
+                                <button class="btn-primary">Find out more</button>
+                                <div class="btn-demo">
+                                    <div class="circle">▶</div>
+                                    <span>Play Demo</span>
+                                </div>
+                            </div>
+                        </div>
 
-                <div className="image">
-                    <img src="/assets/hero-girl.png" alt="Traveler" className="hero-img" />
-                </div>
-            </div>
-        </>
-    )
+                        {/* <!-- Image --> */}
+                        <div class="hero-image">
+                            <img src="/assets/Image.png" alt="Traveler Hero" />
+                        </div>
+                    </section>
+                </>
+                )
 }
 
-export default Banner
+                export default Banner
