@@ -4,11 +4,11 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <a href="#">Destinations</a>
-        <a href="#">Hotels</a>
-        <a href="#">Flights</a>
-        <a href="#">Bookings</a>
-        <a href="#">Login</a>
+        <a href="/destinations">Destinations</a>
+        <a href="/hotels">Hotels</a>
+        <a href="/flights">Flights</a>
+        <a href="/bookings">Bookings</a>
+        <a href="/login">Login</a>
         <button class="signup-btn">Sign up</button>
         <select class="lang-select">
           <option>EN</option>

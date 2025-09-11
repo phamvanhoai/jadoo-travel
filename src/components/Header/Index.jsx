@@ -13,9 +13,9 @@ const Index = () => {
       <header>
         {/* <!-- <div class="logo">Jad<span>oo</span></div> --> */}
         <div class="logo"><img src="/assets/Logo.png" alt="Jadoo" /></div>
-        <Nav/>
+        <Nav />
       </header>
-        <Banner/>
+      <Banner />
     </>
   )
 }
